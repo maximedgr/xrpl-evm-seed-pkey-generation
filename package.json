@@ -1,0 +1,21 @@
+{
+  "name": "pkey-from-eth-to-xrpl",
+  "version": "1.0.0",
+  "description": "This project allows users to generate an XRPL account (seed) from an Ethereum private key and vice versa. Experimental.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-1": "ts-node ethToXRPL.ts",
+    "start-2": "ts-node xrplToETH.ts"
+  },
+  "author": "maximedgr",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.13.2",
+    "ripple-address-codec": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "ts-node": "^10.9.2"
+  }
+}
